@@ -8,8 +8,8 @@ import java.sql.Time;
 public class Main {
     public static void main(String[] args) {
         SpecialDate ivanov = new SpecialDate("Иванов день", TimeOfDay.NIGHT);
-        MumiTroll snork = new MumiTroll("Snork");
-        MumiTroll notSnork = new MumiTroll("NotSnork");
+        MumiTroll snork = new MumiTroll("Фрейкен Снорк");
+        MumiTroll notSnork = new MumiTroll("другой мумми-тролль");
         snork.expressEmotion(Emotion.AFRAID);
         snork.nod();
         Ritual ritual = new Ritual(ivanov,7, snork, notSnork);
