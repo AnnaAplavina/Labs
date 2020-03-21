@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="155.0" y="0.0">ITimeCirclesCalculator</node>
+    <node x="170.0" y="232.0">TimeOfDay</node>
+    <node x="14.0" y="79.0">Troll</node>
+    <node x="158.5" y="79.0">TimeCirclesCalculator</node>
+    <node x="0.0" y="311.0">SpecialDate</node>
+    <node x="11.0" y="232.0">Occasion</node>
+    <node x="0.0" y="158.0">MumiTroll</node>
+    <node x="0.0" y="385.0">Ritual</node>
+    <node x="325.0" y="232.0">Emotion</node>
+    <node x="134.0" y="385.0">Main</node>
+    <node x="10.5" y="0.0">ITroll</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="SpecialDate" target="Occasion">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Troll" target="ITroll">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="MumiTroll" target="Troll">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="TimeCirclesCalculator" target="ITimeCirclesCalculator">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="312.5" y="95.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
